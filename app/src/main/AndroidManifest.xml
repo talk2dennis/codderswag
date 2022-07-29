@@ -14,8 +14,9 @@
         android:theme="@style/Theme.Codderswag"
         tools:targetApi="31">
         <activity
-            android:name=".ProductActivity"
-            android:exported="false" />
+            android:name=".Controller.ProductActivity"
+            android:exported="false"
+            android:parentActivityName=".Controller.MainActivity"/>
         <activity
             android:name=".Controller.MainActivity"
             android:exported="true">

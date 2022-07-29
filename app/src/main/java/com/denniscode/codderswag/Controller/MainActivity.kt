@@ -16,8 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val categoryRecyclerView : RecyclerView = findViewById(R.id.categoryReclerView)
-        adapter = ReclerAdapter(this, DataService.category) {
-            category ->
+        adapter = ReclerAdapter(this, DataService.category) { category ->
             val productIntent = Intent(this, ProductActivity :: class.java)
             productIntent.putExtra(EXTRA_VALUE, category.title)
             startActivity(productIntent)
