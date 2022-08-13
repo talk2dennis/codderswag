@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="166dp">
+    android:layout_height="256dp">
 
     <ImageView
         android:id="@+id/categoryImage"
         android:layout_width="0dp"
-        android:layout_height="150dp"
+        android:layout_height="250dp"
         android:layout_marginTop="16dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
